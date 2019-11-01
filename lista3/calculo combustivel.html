@@ -1,0 +1,51 @@
+<html>
+    <head>
+<script language=javascript>
+	  litros=parseFloat(prompt("Litros abastecidos "));
+	  combustivel=("digite a=alcool ou g-gasolina");
+	
+      
+      
+
+	     if(litros<20)
+          {
+           alcool=(litros*2.9)
+           total=(alcool*.03)
+           desconto=(alcool-total)
+          }
+         if(litros>=20)
+          {
+             alcool=(litros*2.9)
+             total=(alcool*.05)
+             desconto=(alcool-total)           
+          }
+       
+	     alert("valor pago:" +desconto)
+        
+      
+
+
+         if(litros<20)
+          {
+           gasolina=(litros*3.30)
+           total=(gasolina*.04)
+           desconto=(gasolina-total)
+          }
+         if(litros>=20)
+          {
+             gasolina=(litros*3.30)
+             total=(gasolina*.06)
+             desconto=(gasolina-total)           
+          }
+       
+	     alert("valor pago:" +desconto)
+    
+    
+
+</script>
+<body></body>
+
+
+
+    </head>
+</html>
